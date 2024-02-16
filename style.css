@@ -1,0 +1,920 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    #outer-item1{
+     height:20%;
+
+}
+
+    .about{
+        display:flex;
+        flex-direction:column;
+    }
+    #about{
+        display:flex;
+        flex-direction:column;
+    }
+    #testinomials{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #footer1{
+        display: flex;
+        flex-direction: column;
+  
+        
+
+    }
+    #slide-image {
+      /* aspect-ratio: 3/1.5; */
+      /* border-radius: 10px; */
+      height: 30vh
+  }
+    #footer2{
+      padding: 10px 0px!important;
+    }
+    #our-product-row{
+        display: flex;
+        flex-direction: column;   
+        margin-right: -50px;
+
+        width: 100%;
+    }
+    #about-us{
+        display:flex;
+        flex-direction: column;
+    }
+    .carousel-inner{
+      height:20vh;
+    }
+   .about-certificate{
+    display: flex;
+    flex-direction: column;
+   } 
+   .carousel-inner {
+    height:auto;
+   
+    /* margin-top: 56px;*/
+   }
+   #three-container{
+    height:10%;
+     box-sizing:border-box;
+
+   }
+  
+   
+   
+   
+   
+
+
+    
+
+.header{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+
+}
+@media screen and (max-width:767px) {
+  .background-img-sub-page h1{
+    font-size: 40px;
+   background-color: white;
+   width: 69% !important;
+   padding: 50px 51px;
+   
+   margin:-70px auto;
+   border-left: 5px solid #e22424 !important;
+   
+}
+.background-img-sub-page{
+  background-image: url('images/Untitled\ design.png');
+  background-repeat: no-repeat;
+   padding: 150px 10px;
+   background-size:cover;
+   width: 99% !important;
+
+}
+
+.container {
+   /* aspect-ratio: 1/2; */
+
+}
+.navbar-collapse{
+  flex-direction: column;
+}
+
+
+
+#item1{
+  width: 30%;
+  height: 30%;
+  padding: 46% !important;
+  /* background-color: #e22424; */
+  background-image: url('images/Medplus Hospital Solutions - Manufacturer from Hindon Residential Area, Ghaziabad, India _ About Us_files/10mm-hospital-cubicle-curtain-track-250x250.jpeg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  float: left;
+  border-radius: 70%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+
+
+}
+#outer-item1{
+  width: 30%;
+  height: 30%;
+  padding: 22%!important;
+  background-color: #e22424;
+  /* background-image: url('images/OT Light.jpg'); */
+  /* background-size:contain; */
+  float: left;
+  border-radius: 70%;
+  position: relative!important;
+  z-index: 1;
+  left: 24px;
+
+}
+#item2{
+  width: 30%;
+  height: 30%;
+  padding: 46% !important;
+  /* background-color:gray; */
+  background-image: url('images/hospial solution curtain.jpg');
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  
+ 
+  border-radius: 70%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+
+}
+#outer-item2{
+  width: 30%;
+  height: 30%;
+  padding: 22%!important;
+  background-color:#df6f6e;
+  /* background-image: url('images/hospial solution curtain.jpg'); */
+  /* background-size: contain; */
+   float: left;
+  border-radius: 70%;
+  z-index: 1;
+  position: relative;
+  left: 24px!important;
+
+}
+
+#item3{
+  width: 30%;
+  height: 30%;
+  padding: 46% !important;
+  /* background-color:darkgray; */
+  background-image: url('images/hospital solution curtain 2.jpg');
+  background-size: contain;
+
+  /* clear: both; */
+  border-radius: 70%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  align-items:center;
+
+}
+#outer-item3{
+  width: 30%;
+  float:center;
+  clear: both;
+  height: 30%;
+  padding: 22%!important;
+  background-color:#5a5a5a;
+  /* background-image: url('images/hospial solution curtain.jpg'); */
+  /* background-size: contain; */
+  border-radius: 70%;
+  z-index: 1;
+  position: relative!important;
+  left: 102px!important;
+  bottom: 19px!important;
+
+}
+
+}
+
+.form-control{
+  box-shadow: 2px 4px 10px #ebe5e5c9;
+    border: none;
+}
+
+
+/* #banner-1{
+  height: 500px;
+} */
+
+
+
+
+/* search-button-navbar-start */
+
+#search-button{
+  background-color: #e22424;
+  color: white;
+  /* border: 1px solid red; */
+}
+#search-button:hover{
+  background-color: #bb1b1b;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:7%;
+}
+
+
+
+/* search-button-navbar-ended */
+
+#info{
+    color: #e22424;
+    font: 300;
+    font-size: 18px;
+    border: 2px solid #e22424;
+    border-radius: 5px 5px;
+
+}
+h2{
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+
+
+
+
+}
+.navbar-toggler{
+  border: none;
+  background-color: #e22424;
+}
+.background-img-sub-page{
+  background-image: url('images/Untitled\ design.png');
+  background-repeat: no-repeat;
+   padding: 150px 10px;
+   background-size: cover;
+   
+}
+.background-img-sub-page h1{
+ font-size: 40px;
+background-color: white;
+width: 20%;
+padding: 50px 51px;
+
+margin:-70px auto;
+border-left: 3px solid #e22424;
+
+
+}
+.inner-about-us{
+  font-size:19px
+}
+
+.company-profile{
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+/* body{
+    margin: 0px auto ;
+} */
+#color{
+  color: black;
+  font-size: 18px;
+  font-family: math;
+}
+#color3{
+    color: #e22424; 
+}
+#navbar-extend a img {
+  width: 159px;
+}
+#color:hover{
+    color: #e22424;
+   
+    
+}
+li{
+    list-style-type: none;
+}
+#color1{
+    background-color: #e22424 ;
+}
+
+#color2:hover{
+    border-bottom: 2px solid  #e22424;
+    border-radius: 0px;
+  padding-bottom: 0px;
+    
+   
+}
+#color2{
+    border-bottom: 2px solid  rgb(0, 195, 255);
+    border-radius: 0px;
+    padding-bottom: 0px;
+
+   
+}
+
+
+/* contact-us inner page */
+
+.heading{
+  font-size: 29px;
+font-weight: 800;
+}
+
+
+/* #color:hover{
+    background-color: blue;
+     border-radius: 10px;
+} */
+#link{
+  text-align: left;  
+}
+/* #container-fluid1{
+    background-color: #5a5a5a;
+} */
+.grid-container{
+    padding: 20px 0px 20px 0px;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+    /* background-image: url('images/theme of our products .jpg'); */
+     grid-template-columns: repeat(auto-fit, minmax( 200px, ltr));
+ }
+.grid-item{
+    /* border: 1px solid black; */
+    /* box-shadow: 10px 10px 5px black; */
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+   border-radius: 10px;
+   animation: alternate;
+   background-image: url('');
+
+}
+/* .grid-item:hover{
+    border: 2px solid #e22424;
+    border-radius:0px ;
+} */
+#ourproduct{
+    color:#e22424;
+     padding: 0px;
+     /* border: 1px solid #e22424;
+     border-radius: 5px ; */
+}
+/* #box-shadow{
+    box-shadow: 10px 10px 5px white;
+} */
+#image-item{
+  mix-blend-mode:normal;
+}
+.gray{
+    background-color: #f9f9f9;
+    /* padding: 20px 0px 20p 0px ; */
+}
+#gray{
+    background-color: #f9f9f9;
+    /* padding: 20px 0px 20p 0px ; */
+}
+.row5{
+    background-color: white;
+}
+#border:hover{
+    border-left: 2px solid #e22424 ;
+    /* border-right:  2px solid #e22424;
+} */
+}
+#border{
+    padding: 10px;
+    border-left: 2px solid #e22424 ;
+}
+#image-postion{
+    position: relative;
+    left: 40px;
+    opacity: 0.5;
+}
+#image:hover{
+    /* position: relative;
+    left: 40px; */
+    opacity: 0.5;
+    color: #e22424;
+}
+#item1{
+    width: 30%;
+    height: 30%;
+    padding: 100px;
+    /* background-color: #e22424; */
+    background-image: url('images/Medplus Hospital Solutions - Manufacturer from Hindon Residential Area, Ghaziabad, India _ About Us_files/10mm-hospital-cubicle-curtain-track-250x250.jpeg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    float: left;
+    border-radius: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+
+}
+#outer-item1{
+    width: 30%;
+    height: 30%;
+    padding: 110px;
+    background-color: #e22424;
+    /* background-image: url('images/OT Light.jpg'); */
+    /* background-size:contain; */
+    float: left;
+    border-radius: 70%;
+    position: relative;
+    z-index: 1;
+
+}
+#item2{
+    width: 30%;
+    height: 30%;
+    padding: 100px;
+    /* background-color:gray; */
+    background-image: url('images/hospial solution curtain.jpg');
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    
+   
+    border-radius: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+}
+#outer-item2{
+    width: 30%;
+    height: 30%;
+    padding: 110px;
+    background-color:#df6f6e;
+    /* background-image: url('images/hospial solution curtain.jpg'); */
+    /* background-size: contain; */
+     float: left;
+    border-radius: 70%;
+    z-index: 1;
+    position: relative;
+    left:10px
+
+}
+
+#item3{
+    width: 30%;
+    height: 30%;
+    padding: 100px;
+    /* background-color:darkgray; */
+    background-image: url('images/hospital solution curtain 2.jpg');
+    background-size: contain;
+
+    /* clear: both; */
+    border-radius: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    align-items:center;
+
+}
+#outer-item3{
+    width: 30%;
+    float:center;
+    clear: both;
+    height: 30%;
+    padding: 110px;
+    background-color:#5a5a5a;
+    /* background-image: url('images/hospial solution curtain.jpg'); */
+    /* background-size: contain; */
+    border-radius: 70%;
+    z-index: 1;
+    position: relative;
+    left:120px;
+    bottom:25px
+
+}
+#our-product:hover{
+  background-color: #e22424;
+  color: white;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+    /* background-color: #e22424; */
+    color: black;
+    /* padding: 4px 20px 4px 20px; */
+    /* border-radius: 25px ; */
+    /* border: 0px solid #e22424; */
+}
+.button-about-us{
+    background-color: #e22424;
+    color: white;
+    padding: 4px 20px 0px 20px;
+    border-radius: 25px ;
+    border: 0px solid #e22424;
+}
+
+#gray2{
+    background-image: url('images/theme of our products .jpg');   
+}
+.active{
+    color: rgb(0, 195, 255);
+
+
+}
+#link:hover{
+    color:rgb(0, 195, 255) ;
+
+}
+#Inquriy-button1{
+    padding: 5px 0px;
+    border-radius: 10px;
+    border: 1px solid #e22424;
+    color: #e22424;
+
+
+}
+#Inquriy-button1:hover{
+    border-radius: 10px;
+    border: 1px solid #e22424;
+    color:white;
+    background-color: #e22424;
+}
+#background{
+
+    background-color:  #f9f9f9;
+}
+
+/* .carousel-inner{
+  height:400px;
+  /* margin-top: 56px; */
+
+
+
+/* .navbar-extend{
+  width: 100%;
+
+} */
+
+p{
+  font-weight: 800;
+  font-size: 18px;
+}
+ #top-icon{
+  position: sticky;
+  bottom: 100px;
+  right: 20px;
+  z-index:12;
+ }
+
+.navbar{
+    
+  
+  /* border-radius: 10px 10px ; */
+  box-shadow: 2px 5px 10px gray;
+  color: #272727;
+  font-weight: 800;
+
+  position:sticky;
+  top: 0;
+  z-index: 100;
+  /* margin-top: -16px; */
+  /* margin:-0px -16px 0x -16px; */
+  background-color: white;
+
+  /* background-image: linear-gradient(bisque, pink); */
+}
+
+/* img-fluid {
+  max-width: 87%;
+  height: auto;} */
+#footer{
+  /* background-image: linear-gradient(bisque, pink); */
+padding-left: 50px;
+  /* background-color: rgb(172, 168, 168); */
+}
+.row11{
+  padding-left:18px ;
+}
+
+#footer2{
+  padding: 0px 0px 0px 25px;
+}
+#footer-link{
+  color:black;
+}
+#footer-link:hover{
+  color: #e22424;
+
+}
+#slide-image{
+  /* aspect-ratio: 3/1.5; */
+  /* border-radius: 10px; */
+}
+/* icons-started*/
+.icon i {
+    font-size: 29px;
+    background: green;
+    padding: 3px 6px;
+    border-radius: 48px;
+    box-shadow: 0px 3px 5px green;
+}
+.icon-fb i {
+  background: blue;
+  font-size: 21px;
+  margin-left: 5px;
+  padding: 10px;
+  width: 37px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px blue;
+  height: 37px;
+}
+.icon-insta i {
+    background-image: linear-gradient(rgb(179 4 100 / 91%), rgb(243 178 56));
+    font-size: 24px;
+    margin-left: 5px;
+    padding: 6px 8px;
+    border-radius: 48px;
+    box-shadow: 0px 3px 5px rgb(179 4 100 / 91%);
+}
+.icon-loc{
+    color: #272727;
+}
+/* icons-ended*/
+
+
+
+
+
+
+
+
+
+
+/* cards start */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  /* padding: 1rem; */
+  
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+   
+    /* text-align: center; */
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn1 {
+  color: white;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(77, 77, 247);
+}
+
+.btn1:hover {
+  background-color:#e22424;
+  color: white;
+  border-radius:10px ;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.cards_item:hover{
+
+   transform: scale(1.1);
+   transition: all 0.4s ;
+   /* box-shadow: 2px 5px 10px gray; */
+   /* font-size: 30px; */
+
+   /* transition: none;
+   transform: none;
+   animation: none; */
+}
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+/* .cards_item:hover{
+    box-shadow: 3px 3px 3px gray;
+    display: flex;
+    padding: 1rem;
+  } */
+  
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 25%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 2px 5px 10px rgb(211, 205, 205);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card:hover {
+    background-color: white;
+    border-bottom-right-radius:.50em;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 2px 5px 10px gray ; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+.card_content {
+  padding: 1rem;
+  /* background: linear-gradient(to bottom left, #e22424 40%, #fa9c61 100%); */
+}
+
+.card_title {
+  color: #272727;
+  font-size:23px;
+  font-weight: 700;
+  /* letter-spacing: 1px; */
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: ui-monospace;
+}
+
+.card_text {
+  color:#272727;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+/* cards ended */
+
+
+
+/* testinomials started */
+
+
+/* second testimonials */
+
+
+
+/*  scrooling system*/
+.menu-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%; /* Set the maximum width */
+}
+
+.menu-scroll ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.menu-scroll li {
+  display: inline-block;
+  padding: 10px;
+  height: 200px;
+
+}
+
+.menu-scroll li:hover {
+  background-color: #E6A347;
+}
+
+.menu-scroll a {
+  color: #AD77FF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-scroll::-webkit-scrollbar {
+  height: 2px;
+}
+
+.menu-scroll::-webkit-scrollbar-thumb {
+  background-color: #E6A347;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

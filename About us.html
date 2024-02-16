@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="style.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <title>HOME. MEDPLUSHOSPITALSOLUTION.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+  </link>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh3U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+  
+
+  <script>
+    // Sample data (you can replace this with your own data)
+    
+    const database = [
+      { title: "oxygenBPCFlowmeter", content: "oxygenbpcflowmeter", link: "oxygenBPCFlowmeter.html"},
+      { title: "hospitalivhanger", content: "hospitalivhanger", link: "hospitalivhanger.html" },
+      { title: "hospital-curtain", content: "hospital-curtain", link: "hospital-curtain.html" },
+      { title: "2000MI-Ward-Vaccum-Regulator", content: "2000MI-Ward-Vaccum-Regulator", link: "2000MI-Ward-Vaccum-Regulator.html"},
+      { title: "BS-Type-Oxygen-Outlet-Point", content: "BS-Type-Oxygen-Outlet-Point", link: "BS-Type-Oxygen-Outlet-Point.html" },
+      { title: "SSDG-Oxygen-Mox-Regular", content: "SSDG-Oxygen-Mox-Regular", link: "SSDG-Oxygen-Mox-Regular.html" },
+      { title: "cardiac-Moniter-stand", content: "cardiac-Moniter-stand", link: "cardiac-Moniter-stand.html"},
+      { title: "gas-pipeline-isolation-ball-valve", content: "gas-pipeline-isolation-ball-valve", link: "gas-pipeline-isolation-ball-valve.html" },
+      { title: "hospital-bed-head-pannel", content: "hospital-bed-head-pannel", link: "hospital-bed-head-pannel.html" },
+      { title: "hospital-wall-guard", content: "hospital-wall-guard", link: "hospital-wall-guard.html"},
+      { title: "Nurse-Call-Ball-System", content: "Nurse-Call-Ball-System", link: "Nurse-Call-Ball-System.html" },
+      { title: "Orian-G-Ventilator", content: "Orian-G-Ventilator", link: "Orian-G-Ventilator.html" },
+      { title: "pvc-runner-curtain-hook", content: "pvc-runner-curtain-hook", link: "pvc-runner-curtain-hook.html" }
+    ];
+  
+    function search(event) {
+      event.preventDefault(); // Prevent form submission
+      const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+      const searchResult = database.find(item => item.title.toLowerCase().includes(searchTerm) || item.content.toLowerCase().includes(searchTerm));
+      if (searchResult) {
+        // Redirect to the inner page associated with the search result
+        window.location.href = searchResult.link;
+      } else {
+        // Handle case where no result is found
+        alert("This site can't be reached.");
+      }
+    }
+  
+    // script code ends here
+  </script>
+
+  <nav class="navbar   navbar-expand-lg" class="header" id="navbar-extend">
+    <div class="container-fluid">
+     <a href="index.html"> <img src="images/Logo Resize.png" class="img-fluid" alt="responsive image"></a>
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-sliders-h"></i>
+        <div class="clear"></div>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 ps-5 pt-2" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="color">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link   d-flex" href="About us.html" id="color">About us</a>
+            
+          </li>
+          <li class="nav-item dropdown" id="dropdown1">
+            <a class="nav-link  d-flex" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="color">
+            Our Products <h6 class="dropdown-toggle ms-1 pt-1"></h6>
+            </a>
+
+
+            <ul class="dropdown-menu">
+            <div class="container">
+              <div class="row0 d-flex" id="our-product-row" >
+                <div class="col-md-4">
+                  <li><a class="dropdown-item" href="oxygenBPCFlowmeter.html" id="our-product">Oxygen BPC. Flowmeter</a></li>
+                  <li><a class="dropdown-item" href="Nurse-Call-Ball-System.html" id="our-product">Nurse Cell Ball System.</a></li>
+                  <li><a class="dropdown-item" href="cardiac-Moniter-stand.html" id="our-product">Cardiac Moniter stand.</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="hospital-curtain.html" id="our-product">Hospital curtain.</a></li>
+                  <li><a class="dropdown-item" href="Orian-G-Ventilator.html" id="our-product">Orian G Ventilator.</a></li>
+                </div>
+                <div class="col-md-4">
+                  <li><a class="dropdown-item" href="hospital-bed-head-pannel.html" id="our-product">Hospital Bed Head Pannel.</a></li>
+                  <li><a class="dropdown-item" href="hospitalIVhanger.html" id="our-product">Hospital IV Hanger.</a></li>
+                  <li><a class="dropdown-item" href="BS-Type-Oxygen-Outlet-Point.html" id="our-product">BS Type Oxygen Outlet Point.</a></li>
+                  <li><hr class="dropdown-divider"></li >
+                  <li><a class="dropdown-item" href="hospital-wall-guard.html" id="our-product">Hospital Wall Guard.</a></li>
+                </div>
+                <div class="col-md-4 me-5">
+                  <li><a class="dropdown-item" href="gas-pipeline-isolation-ball-valve.html" id="our-product">Gas Pipeline Isolation Ball Valve. </a></li>
+                  <li><a class="dropdown-item" href="2000MI-Ward-Vccum-Regulator.html" id="our-product">2000MI Ward Vaccum Regulator. </a></li>
+                  <li><a class="dropdown-item" href="SSDG-Oxygen-Mox-Regular.html" id="our-product">SSDG Oxygen Mox Regular.</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="pvc-runner-curtain-hook.html" id="our-product">PVC Runner Curtain Hook.</a></li>
+                </div>
+              </div>
+            </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="contact us.html" id="color">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Gallery.html" id="color">Gallery</a>
+          </li>
+          
+        </ul>
+
+
+        <!-- code editing start here -->
+<!-- 
+
+        <form class="d-flex pe-5" role="search">
+          <input class="form-control  me-0" id="searchInput"  type="search" placeholder="Search Products" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i>
+        
+          
+
+              <button class="btn btn-outline-danger" id="search-button" type="submit" onclick="search()">Search</button>
+        </form> -->
+        <form class="d-flex pe-5" role="search">
+          <input class="form-control me-0" id="searchInput" type="search" placeholder="Search Products" aria-label="Search">
+          <button class="btn btn-outline-danger" id="search-button" type="button" onclick="search(event)">Search</button>
+        </form>
+
+
+
+
+<!-- code editing ends here -->
+
+
+        <div class="clear">
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+      
+
+<section >
+  <div class="container-fluid">
+  <div class="row d-flex ">
+    <div class="col background-img-sub-page">
+     <h1>About
+      <div class=" inner-about-us d-flex"><a href="index.html" class="text-decoration-none text-danger">Home </a>
+      <p aria-disabled="true" class="text-decoration-none text-black opacity-50 ps-2"> /About-us</p></div>
+     </h1>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+      <section>
+
+          <div class="container">
+        <div class="row py-5 d-flex flex-wrap-reverse"  >
+          <div class="col-lg-6 col-md-6 col-xs-12 text-center pt-0">
+       <video src="med_life.mp4" autoplay controls  style="padding-top: -50px;" width="100%">
+
+       </video>
+          </div>
+       
+          <div class="col-lg-6 col-md-6 col-xs-12 px-4 pt-3">
+            <h2 class="pt-3">ABOUT OUR COMPANY</h2>
+            <ul style="font-weight: 700; font-style: oblique; opacity:0.8; font-size: 20px;" class="ps-0 pt-2">
+              <li>20 Years Of Experienced Company.</li>
+              <li>best deals in hospital solution applinces.</li>
+              <li>Customer Around The World Satisfy With It</li>
+              <li>Best price quotations in the industry</li>
+              <li>Range offered as per the client requirements</li>
+            </ul>
+
+          </div>
+
+        </div>
+          </div>
+      </section>
+      <section id="gray">
+        <div class="container">
+              <div class=" row-1 py-5"> 
+                 <div class="text-center py-3"><h2>ABOUT US</h2></div>
+                <div class="col">
+
+                  <p>Medplus Hospital Solutions was established in Ghaziabad, Uttar Pradesh, in 2021 and since then it has been providing a reliable range of various medical equipment such as Hospital Wall Guard, Cardiac Monitor Stand, Hospital Cubicle Curtain Track, Single Gauge Oxygen Gas Regulator, Amico Type Oxygen Outlet Point, and many others. We operate in this sector of the industry as a competent manufacturer, trader, exporter, service provider and supplier. Customers appreciate our products, which motivates us to do even better with each passing day. 
+
+                    We are a promising organization working with dignity and responsibility, fully committed to providing the top quality products to our clients. We have specialized in this domain in a very short period of time and continue to innovate our product range to keep in line with industry trends. We are serving the best interests of each customer which helps us earn the respect in the operating domain. Our team of highly experienced professionals is our backbone, and their innovative and creative ideas do wonders for us. They are experienced and informed about the recent development in the sector. We are continually investigating prospective markets in order to expand our reach throughout the nation.
+                    </p>
+
+                </div>
+                <div class="col">
+                  <h3 class="fw-bold"> Our Infrastructure</h3>
+                  <p>As a well-organized and craftily designed infrastructure, our organization is leading the path for many to take a leaf of our books. We make appropriate use of space in the setup and keep the distinctive sections for various manufacturing and post-production jobs connected to various types of products.
+
+                    The premises feature the latest technological advance, apparatus, and machinery that increases our production efficiently and allows us to serve the given range to many clients. We understand the role that technology which plays a great part in our setup, and we try to keep upgrading our equipment and machinery.
+                    </p>
+                </div>
+                <div class="col">
+                  <h3 class="fw-bold">Manufacturing Unit
+                  </h3>
+                  <p>We have cutting-edge technology and modern machinery to manufacture the Hospital Wall Guard, Cardiac Monitor Stand, Amico Type Oxygen Outlet Point, Single Gauge Oxygen Gas Regulator, Operation Theater Pendant and a variety of other medical products. Our trained professionals ensure that the items produced are of the highest quality and satisfy the needs of our customers specifications. Furthermore, in our production units, we have a quality control section where all products are thoroughly evaluated on many factors such as the ease of use and durability, before they are distributed to clients. We also have a team of engineers who strive to improve our products so that our firm can satisfy changing market needs.
+                  </p>
+
+                </div>
+                <div class="col">
+                  <h3 class="fw-bold">Why Choose Us?</h3>
+                  <p>Medplus Hospital Solutions is a prestigious choice of many clients, who choose us for many reasons, some of which are given below:</p>
+                  <ul>
+                    <li>1. Med Plus Hospital Solutions: Revolutionizing healthcare through innovative technology.</li>
+                    <li>2. Enhancing patient care with cutting-edge solutions, Med Plus is your trusted hospital partner.</li>  
+                     <li>3. Med Plus Hospital Solutions: Bridging the gap between technology and healthcare for a healthier tomorrow.</li> 
+                     <li>4. Empowering hospitals with seamless and efficient solutions, Med Plus is the future of healthcare management.</li> 
+                     <li>5. Delivering excellence in healthcare administration, Med Plus Hospital Solutions is the heartbeat of efficient medical practices.</li> 
+                  </ul>
+                </div>
+                
+              </div>
+            <div class="row-13">
+           <div class="col pb-5">
+               <h3 class="heading" >Contact Us</h3>
+          <br>
+          <h5>Head Office.</h5>
+          <p>936, Near Hindon Air Force Station, New Karhera Colony, <br>Mohan Nagar, Ghaziabad - 201007, Uttar Pradesh, India</p>
+        <div class="d-flex fw-bold" ><h6 >phone.</h6>08037747211.</div><br>
+         <h6 >Mr. Kapil (Proprietor)</h6>
+         <div class="d-flex fw-bold " ><h6 >Mobile.</h6>08037747211.</div>
+       <div class="gap-2" > <button type="button" class="btn text-black bg-warning" class="" id="color1" data-toggle="modal" data-target="#exampleModal">
+        Send Quiry
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Send Inquriy</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" aria-placeholder="Share your Thoughts With Us"></textarea>
+                <label for="floatingTextarea">Address</label>
+              </div>
+              <form>
+                <div class="row my-4">
+                  <div class="col">
+                    <input style="background-color: #D9DDDC; border:1px solid skyblue;" type="email" class="form-control" required  placeholder="Email Id">
+                  </div>
+                  <div class="col">
+                    <input style="background-color: #D9DDDC; border:1px solid skyblue;" type="number" class="form-control" required placeholder="Mobile No">
+                  </div>
+                </div>
+
+      
+              <!-- <div class="text-center py-4 px-5"><button><a href="https://www.google.com"   class="text-decoration-none text-white">Send Inquriy</a></button></div> -->
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="btn  bg-warning text-black " href="mailto:info.medplushs@gmail.com " role="button" id="color1">Send SMS</a>
+      </div>
+
+
+            </div>
+      </section>
+
+
+
+    
+
+
+
+      </div>
+
+    <!-- footer started -->
+    <div class="container-fluid">
+      <div class="row-9 px-2  d-flex" id="footer">
+          <div class="col-sm-1 py-4 px-4 col-md-3 " id="footer2">
+              <img src="images/Logo Resize.png" class="img-fluid" alt="responsive image"/>
+              <a class="navbar-brand" href="#">
+              <h3 class="" id="color3">Medplus Hospital</h3>
+              <h5 class="text-black">Solutions</h5></a>
+              <p>Let's stay in touch! Follow us on these social media links.</p>
+              <a href=" https://wa.me/+919999323967" class="text-decoration-none text-white icon">
+                <i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/medplus67?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-decoration-none text-white icon-insta ">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+
+                <a href="https://www.facebook.com" class="text-decoration-none text-white icon-fb">
+                  <i class="fab fa-facebook-f"></i></a>
+      
+          </div>
+         
+          <div class="col-sm-1 py-3 col-md-3 ">
+              <h4 id="color3">Address</h4>
+              <br>
+              <P><i class="fas fa-map-marker-alt text-danger"></i> 936, Near Hindon Air Force Station, New Karhera Colony, Mohan Nagar, Ghaziabad - 201007, Uttar Pradesh, India</P>
+                 <!-- <img src="images/th.jpeg" alt="responsive image"> -->
+              <p>Mr. Kapil (Proprietor)<br>
+                <i class="fas fa-phone-alt text-danger"></i> 08037747211</p>
+              <!-- <a class="btn  text-white " role="button" id="color1">Send Inquriy</a> -->
+              <button type="button" class="btn text-white" class="" id="search-button" data-toggle="modal" data-target="#exampleModal">
+                Send Inquiry
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Send Inquriy</h5>
+                      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button> -->
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required aria-placeholder="Share your Thoughts With Us"></textarea>
+                        <label for="floatingTextarea">Address</label>
+                      </div>
+                      <form>
+                        <div class="row my-4">
+                          <div class="col">
+                            <input style="background-color: #D9DDDC; border:1px solid skyblue;" type="email" class="form-control" aria-required="true"  placeholder="Email Id">
+                          </div>
+                          <div class="col">
+                            <input style="background-color: #D9DDDC; border:1px solid skyblue;" type="number" class="form-control" required placeholder="Mobile No">
+                          </div>
+                        </div>
+
+              
+                      <!-- <div class="text-center py-4 px-5"><button><a href="https://www.google.com"   class="text-decoration-none text-white">Send Inquriy</a></button></div> -->
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <a href="#"> <button type="button submit" class="btn btn-danger">submit</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn  text-white mx-3" href="mailto:info.medplushs@gmail.com " role="button" id="search-button">Send SMS</a>
+
+          </div>
+          <div class="col-sm-1 py-3 ps-5 col-md-3 text-left " id="footer2">
+            <h4 id="color3"  class="text-left d-grid">Important Links</h4>
+            <br>
+
+
+            <a href="index.html" class="text-decoration-none text-black"  ><p id="footer-link">Home</p></a>
+            <a href="contact us.html" class="text-decoration-none text-black"  ><p id="footer-link">Contact us</p></a>
+             <a href="About us.html" class="text-decoration-none text-black " ><p id="footer-link">About us</p></a>
+                         <a href="our product" class="text-decoration-none text-black" ><p id="footer-link">Our Product</p></a>
+                           <a href="Gallery.html" class="text-decoration-none text-black" ><p id="footer-link">Gallery.</p></a>
+     
+                         <!-- <a class="btn  text-white px-5" href="#" role="button" id="color1">Sign in</a> -->
+           </div>
+          <div class="col-sm-1 py-3 col-md-3">
+              <div class="" style="width: 100%;">
+                  <h4 id="color3">SiteMap</h4>
+                  <iframe  style="box-shadow: 5px 5px 3px white;;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13999.960903639014!2d77.36041278308578!3d28.689938983608016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa7f48dd3ebd%3A0xb77f18338cb5e7d5!2sMedplus%20Hospital%20Solutions!5e0!3m2!1sen!2sin!4v1706522000408!5m2!1sen!2sin" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+    </div>
+         <div class="container-fluid">
+          <div class="row12 d-flex "  >
+            <div class="col-lg-12 text-left d-flex ps-4 text-black" id="footer2">
+              <p class="copyright"
+                ><h5>Copyright <i class="far fa-copyright"></i> </h5> 2024 Medplus Hospital Solution. All Rights Reserved</p>
+            </div>
+      
+          </div>
+         </div>
+ 
+
+
+        <!-- footer ended -->
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
