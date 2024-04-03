@@ -1,15 +1,44 @@
 *{
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
+
 body{
   margin: 0%;
   padding: 0%;
 }
 
 
+#link:hover{
+  color: rgb(51, 51, 248);
+}
+span{
+  opacity: 0.5;
+  /* position: relative;
+  bottom: 100px; */
+  text-decoration: none;
+  /* border: 2px solid blue; */
+  /* padding: 50px; */
+  padding:5px 25px;
+  margin-bottom:7px ;
 
+
+
+}
+span:hover{
+  color: white;
+  font-weight: 900;
+
+  opacity: 1;
+  /* border: 2px solid blue; */
+  background-color: #e22424;
+border-radius: 10px;
+  padding:5px 25px;
+  margin-bottom:7px ;
+
+
+
+}
 
 @media screen and (max-width:767px) {
     #outer-item1{
@@ -325,6 +354,7 @@ border-left: 3px solid #e22424;
 }
 #navbar-extend a img {
   width: 159px;
+  padding-left: 18px;
 }
 #color:hover{
     color: #e22424;
@@ -635,6 +665,128 @@ padding-left: 50px;
 .row11{
   padding-left:18px ;
 }
+#footer-web-tech{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: end;
+  padding-inline-end: 28px;
+}
+
+
+.floating_btn1 {
+  position: fixed;
+  bottom: 24%;   
+  left: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  /* box-shadow: 0 0 45px rgba(0, 0, 0,); */
+}
+
+.fa-phone-alt-1 {
+  color: white;
+}
+
+.contact_icon {
+  background-color: #e22424;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #147a86;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
+  position: absolute;
+  top: -75%;
+  left: 13px;
+}
+
+.floating_btn2{
+  position: fixed;
+  bottom: 25%;
+  left: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.whatsapp_icon {
+  background-color: #42db87;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #42db87;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
+}
+
+/* Back to Top */
+  
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+
+/* textarea */
+.form-control-1{
+  background-color: #eeefef;
+/* border: 1px solid skyblue; */
+box-shadow: 2px 5px 11px #80808075;
+}
+
+.web-tech{
+  color:black;
+  text-decoration: none;
+
+}
+.web-tech:hover{
+  color:#e22424;
+  
+  
+}
+/* textarea */
+
+/* Back to Top */
 
 #footer2{
   padding: 0px 0px 0px 25px;
@@ -687,6 +839,36 @@ padding-left: 50px;
 
 
 
+#link:hover{
+  color: rgb(51, 51, 248);
+}
+span{
+  opacity: 0.5;
+  /* position: relative;
+  bottom: 100px; */
+  text-decoration: none;
+  /* border: 2px solid blue; */
+  /* padding: 50px; */
+  padding:5px 25px;
+  margin-bottom:7px ;
+
+
+
+}
+span:hover{
+  color: white;
+  font-weight: 900;
+
+  opacity: 1;
+  /* border: 2px solid blue; */
+  background-color: #e22424;
+border-radius: 10px;
+  padding:5px 25px;
+  margin-bottom:7px ;
+
+
+
+}
 
 
 
@@ -778,6 +960,7 @@ img {
 }
 .cards_item {
   display: flex;
+  border: none;
   padding: 1rem;
 }
 /* .cards_item:hover{
